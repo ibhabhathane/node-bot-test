@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "o.js",
-  "start": "node o",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node o"
   },
   "author": "",
   "license": "ISC",
