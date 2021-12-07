@@ -61,7 +61,6 @@ bot.command("str", ctx => {
 });
 
 bot.action('walledit', ctx => {
-//  console.log(ctx.update),
   axios.get('https://nekos.life/api/v2/img/wallpaper')
     .then(res => {
       let lass = res.data.url;
