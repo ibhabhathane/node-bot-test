@@ -65,7 +65,6 @@ bot.action('walledit', ctx => {
   axios.get('https://nekos.life/api/v2/img/wallpaper')
     .then(res => {
       let lass = res.data.url;
-      request(lass).pipe(fs.createWriteStream("image.png"));
       ctx.editMessageMedia({
         type: "photo",
         media: lass,
